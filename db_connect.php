@@ -1,5 +1,5 @@
 <?php
-$host = '20.196.222.1';
+$host = 'localhost';
 $username = 'root';
 $password = 'alstkd9031';
 $database = 'realMSDB';
