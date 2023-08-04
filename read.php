@@ -97,7 +97,7 @@
 <body>
     <?php
     // DB 연결 및 게시글 정보 조회
-    $connect = mysqli_connect('localhost', 'root', 'alstkd9031', 'realMSDB');
+    $connect = mysqli_connect('20.196.222.1', 'root', 'alstkd9031', 'realMSDB');
     $number = $_GET['number'];
     $query = "SELECT title, content, date, hit, id FROM board WHERE number = $number";
     $result = $connect->query($query);
