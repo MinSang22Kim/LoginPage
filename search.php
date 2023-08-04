@@ -1,6 +1,6 @@
 <?php
 session_start();
-$conn = mysqli_connect('localhost', 'root', 'alstkd9031', 'realMSDB') or die("connect failed");
+$conn = mysqli_connect('20.196.222.1', 'root', 'alstkd9031', 'realMSDB') or die("connect failed");
 
 $cate = $_GET['cate'];
 $search = $_GET['search'];
