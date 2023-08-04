@@ -1,5 +1,5 @@
 <?php
-$connect = mysqli_connect('localhost', 'root', 'alstkd9031', 'realMSDB') or die("connect failed");
+$connect = mysqli_connect('20.196.222.1', 'root', 'alstkd9031', 'realMSDB') or die("connect failed");
 $num = $_GET['idx']; // 댓글 번호
 $con_num = $_GET['con_num']; // 댓글 번호
 $sql = query("select * from reply where idx='" . $num . "'"); //reply테이블에서 idx가 num변수에 저장된 값을 찾음
