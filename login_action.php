@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$connect = mysqli_connect("20.196.222.1", "root", "alstkd9031", "realMSDB") or die("connect failed");
+$connect = mysqli_connect("20.196.222.1", "ms", "alstkd9031", "realMSDB") or die("connect failed");
 
 //입력 받은 id와 password
 $id = $_POST['id'];
