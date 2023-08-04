@@ -92,7 +92,7 @@
 
 <body>
     <?php
-    $connect = mysqli_connect('20.196.222.1', 'root', 'alstkd9031', 'realMSDB') or die("connect failed");
+    $connect = mysqli_connect('localhost', 'root', 'alstkd9031', 'realMSDB') or die("connect failed");
     $query = "select board.*, count(reply.idx) as reply_count from board left join reply on board.number = reply.con_num group by board.number order by board.number desc"; // 게시글과 댓글 개수를 함께 가져오는 쿼리
     $result = mysqli_query($connect, $query);
     $total = mysqli_num_rows($result);
