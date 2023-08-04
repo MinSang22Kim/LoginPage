@@ -1,5 +1,5 @@
 <?php
-$connect = mysqli_connect('20.196.222.1', 'root', 'alstkd9031', 'realMSDB') or die("connect failed");
+$connect = mysqli_connect('localhost', 'root', 'alstkd9031', 'realMSDB') or die("connect failed");
 
 $id = $_POST['name']; //Writer
 $pw = $_POST['pw']; //Password
