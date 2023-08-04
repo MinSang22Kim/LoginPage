@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$connect = mysqli_connect('20.196.222.1', 'root', 'alstkd9031', 'realMSDB');
+$connect = mysqli_connect('localhost', 'root', 'alstkd9031', 'realMSDB');
 if (!$connect) {
     die("데이터베이스 연결에 실패하였습니다: " . mysqli_connect_error());
 }
