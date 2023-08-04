@@ -5,7 +5,7 @@ $connect = mysqli_connect("20.196.222.1", "root", "alstkd9031", "realMSDB") or d
 
 //입력 받은 id와 password
 $id = $_POST['id'];
-$pw = $_POST['pw'];
+$pw = $_POST['password'];
 
 //아이디가 있는지 검사
 $query = "select * from member where id='$id'";
