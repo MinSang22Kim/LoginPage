@@ -1,5 +1,5 @@
 <?php
-$host = "20.196.222.1"; // 호스트명
+$host = "localhost"; // 호스트명
 $user = "root"; // MySQL 사용자명
 $password = "alstkd9031"; // MySQL 비밀번호
 $dbName = "realMSDB"; // 사용할 데이터베이스명
