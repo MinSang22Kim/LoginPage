@@ -36,7 +36,7 @@
     $commentId = $_GET['name'];
 
     // 데이터베이스 연결
-    $connect = mysqli_connect('20.196.222.1', 'root', 'alstkd9031', 'realMSDB');
+    $connect = mysqli_connect('localhost', 'root', 'alstkd9031', 'realMSDB');
     if (!$connect) {
         die("데이터베이스 연결에 실패했습니다.");
     }
