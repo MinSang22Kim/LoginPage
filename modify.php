@@ -32,7 +32,7 @@
 
 <body>
     <?php
-    $connect = mysqli_connect('127.0.0.1', 'root', 'alstkd9031', 'realMSDB') or die("connect failed");
+    $connect = mysqli_connect('20.196.222.1', 'root', 'alstkd9031', 'realMSDB') or die("connect failed");
     $number = $_GET['number'];
     $query = "select title, content, date, id from board where number = $number";
     $result = $connect->query($query);
