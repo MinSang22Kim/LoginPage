@@ -1,5 +1,5 @@
 <?php
-$connect = mysqli_connect('20.196.222.1', 'root', 'alstkd9031', 'realMSDB') or die("connect failed");
+$connect = mysqli_connect('localhost', 'root', 'alstkd9031', 'realMSDB') or die("connect failed");
 
 // POST 방식으로 전달된 댓글 ID와 게시물 번호, 비밀번호, 수정된 내용을 변수에 저장합니다.
 $replyId = $_POST['name'];
